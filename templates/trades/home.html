@@ -1,0 +1,18 @@
+{% extends  "base.html" %}
+<html>
+<head></head>
+<body>
+  <h1>List of contacts</h1>
+{% block content %}
+    {% for contact in contact_list %}
+         {{ a_variable }}
+         <p><strong>First Name:</strong>{{ contact.first_name }}</p>
+         <p><strong>Last Name:</strong>{{ contact.last_name }}</p>
+         <p><strong>Mobile:</strong>{{ contact.mobile }}</p>
+         <p><strong>Trade:</strong>{{ contact.trade }}</p>
+         <p><strong>Location:</strong>{{ contact.location }}</p>
+  <hr>
+    {% endfor %}
+{% endblock %}
+</body>
+</html>

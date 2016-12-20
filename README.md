@@ -36,3 +36,5 @@
 # Images I downloaded from the internet
 
 # css uploaded with amazon to heroku
+
+# for colors I used ColorCombo1138 from www.colorcombos.com
